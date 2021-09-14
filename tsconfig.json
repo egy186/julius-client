@@ -1,0 +1,14 @@
+{
+  "include": ["**/*.ts"],
+  "exclude": ["**/*.js"],
+  "compilerOptions": {
+    "incremental": true,
+    "target": "es2020",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "outDir": ".",
+    "strict": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "extends": [
+    "@egy186/eslint-config",
+    "@egy186/eslint-config/modules",
+    "@egy186/eslint-config/node",
+    "@egy186/eslint-config/typescript"
+  ],
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
+  "rules": {
+    "import/no-nodejs-modules": "off",
+    "node/file-extension-in-import": [
+      "error",
+      "never"
+    ],
+    "node/no-unsupported-features/es-syntax": "off"
+  }
+}
