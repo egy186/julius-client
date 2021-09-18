@@ -15,5 +15,21 @@
       "never"
     ],
     "node/no-unsupported-features/es-syntax": "off"
+  },
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "extensions": [
+          ".js",
+          ".ts"
+        ]
+      }
+    },
+    "node": {
+      "tryExtensions": [
+        ".js",
+        ".ts"
+      ]
+    }
   }
 }
