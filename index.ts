@@ -126,7 +126,7 @@ class JuliusClient extends (EventEmitter as new () => TypedEmitter<JuliusClientE
       }
     });
 
-    if (options.autoConnect !== undefined && options.autoConnect) {
+    if (options.autoConnect === undefined || options.autoConnect) {
       this.socket.connect({
         host: options.host,
         port: options.port ?? deafultJuliusClientOptions.port
