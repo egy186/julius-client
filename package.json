@@ -1,7 +1,7 @@
 {
   "name": "@egy186/julius-client",
   "description": "Node.js client for Julius.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "egy186",
   "bugs": {
     "url": "https://github.com/egy186/julius-client/issues"
